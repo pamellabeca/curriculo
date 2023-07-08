@@ -5,14 +5,11 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: #292A2F;
 }
 
 body{
     padding: 20px;
-}
-
-header{
-
 }
 
 header span {
@@ -44,4 +41,72 @@ h2{
 p{
     margin-top: 20px;
     text-align: justify;
+}
+
+aside{
+    margin-top: 10px;
+    max-width: 460px;
+    
+}
+
+aside span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+aside span img{
+    width: 17px;
+    height: 17px;
+}
+
+aside span h1{
+    margin-left: 5px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside .listas{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 460px;
+}
+
+aside .listas ul{
+    margin-left: 15px;
+}
+
+aside .listas li{
+    margin-top: 5px;
+}
+
+
+aside .asidesTittle{
+    margin-top: 10px;
+}
+
+aside .linguagem{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+aside .linguagem p{
+    margin-top: 0;
+}
+
+aside .linguagem .levelLanguage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    max-width: 240px;
+}
+
+aside .linguagem .levelLanguage p{
+    margin-top: 0;
+    font-size: 14px;
 }
