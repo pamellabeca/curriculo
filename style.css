@@ -13,6 +13,11 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-image: url(./Imagens/joao-vitor-duarte-k4Lt0CjUnb0-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
 }
 
 header span {
@@ -153,6 +158,11 @@ main section .data{
     font-weight: 600;
     max-width: 71px;
     text-align: center;
+}
+
+main section .eduData{
+    font-size: 16px;
+    font-weight: 600;
 }
 
 main section .infomacaoExp{
