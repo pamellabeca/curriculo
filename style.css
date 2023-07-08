@@ -10,6 +10,9 @@
 
 body{
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 header span {
@@ -46,7 +49,6 @@ p{
 aside{
     margin-top: 10px;
     max-width: 460px;
-    
 }
 
 aside span{
@@ -95,6 +97,10 @@ aside .linguagem{
     margin-top: 10px;
 }
 
+aside .linguagem .lingua{
+    width: 85px;
+}
+
 aside .linguagem p{
     margin-top: 0;
 }
@@ -109,4 +115,90 @@ aside .linguagem .levelLanguage{
 aside .linguagem .levelLanguage p{
     margin-top: 0;
     font-size: 14px;
+}
+
+main{
+    max-width: 800px;
+    margin-top: 10px;
+}
+
+main section{
+    margin-top: 10px;
+}
+
+main section span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main section span img{
+    width: 17px;
+    height: 17px;
+}
+
+main section span h1{
+    margin-left: 5px;
+}
+
+main section .Exp{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+main section .data{
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 71px;
+    text-align: center;
+}
+
+main section .infomacaoExp{
+    margin-left: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+main .position {
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+main section .company{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+main section ul{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+main section p{
+    margin-top: 0;
+    margin-left: 0;
+}
+
+main section .Edu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+main section .informacaoEdu{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
